@@ -18,7 +18,7 @@ A few guiding principles for how the expansions should be structured are as foll
  4. *Expansions* should be feature-complete (if you're unsure with whether or not to add certain fields like `\label{}` for example, err on the side of adding it)
  5. Snippets should be internally consistent, that is, if adding a new *snippet* which is related to another snippet, it should be assigned logically
  
-	 6.	For example, considering `"sec"` expands to `"\section{}"`, `"ssec"` should be used to expand to `\subsection{}` and `"sssub"` (**NOT** 2sub or similar) should be used to expand to `\subsubsection{}`
+	 6.	For example, considering `"sec"` expands to `"\section{}"`, `"ssec"` should be used to expand to `\subsection{}` and `"sssec"` (**NOT** 2sub or similar) should be used to expand to `\subsubsection{}`
  6.	*Expansions* should be intelligent
  
 	 7.	`$n` can be used iteratively to move the cursor following pressing `Tab` with `$0` being the final position. This should be used so the the user can tab their way through the *expansion* from beginning to end in a thought-through manner
