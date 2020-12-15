@@ -31,13 +31,13 @@ A few guiding principles for how the expansions should be structured are as foll
 
 	11. For the example of the *expansion* "nausea and vomiting", the following variants were included
 		
-			{ "trigger": "NandV", "contents": "Nausea and Vomiting"},
+	    { "trigger": "NandV", "contents": "Nausea and Vomiting"},
             { "trigger": "Nandv", "contents": "Nausea and vomiting"},
             { "trigger": "nandv", "contents": "nausea and vomiting"},
             { "trigger": "n&v", "contents": "nausea \\& vomiting"},
             { "trigger": "N&V", "contents": "Nausea \\& Vomiting"},
+	    { "trigger": "N/V", "contents": "Nausea \\& Vomiting"},
             { "trigger": "n/v", "contents": "nausea \\& vomiting"},
-            { "trigger": "n&v", "contents": "nausea \\& vomiting"},
 		
     12. In this example, there are variants for not only alternate capitalisations, but also for `&` vs `and`.
 
