@@ -10,6 +10,7 @@ A few guiding principles for how the expansions should be structured are as foll
  1. *Snippets* should be short (this is meant to save time, right?)
  2. *Snippets* should not be so general as to be confusing (e.g - Avoid things like `"subs"` for `\textsubscript{}` because this could be mistaken for expanding to `\subsection`
  3. *Expansions* should intuitively follow from the content of the *snippet* 
+ 
 	 4. Users should be able to *by-in-large* predict the *expansion* just given the *snippet*, or at least, not be shocked by the *expansion* which results. This helps users having to learn by rote which *snippets* create which *expansions*
  4. *Expansions* should be feature-complete (if you're unsure with whether or not to add certain fields like `\label{}` for example, err on the side of adding it)
  5. Snippets should be internally consistent, that is, if adding a new *snippet* which is related to another snippet, it should be assigned logically
