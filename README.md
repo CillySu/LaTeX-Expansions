@@ -1,10 +1,10 @@
-#LaTeX-Expansions *for Sublime Text 3*
-![Illustration of LaTeX-Expansions](https://i.imgur.com/qmvH0E7.gif)
+# LaTeX-Expansions *for Sublime Text 3*
 
-This JSON file can be used in Sublime Text 3 by the **[LaTeX-Tools](https://github.com/SublimeText/LaTeXTools)** to increase the efficiency of your writing both not only with initiating/navigating/closing of LaTeX environments but also in reducing the time spent typing common terms. This config has been designed with Chemistry in mind but the potential for increasing this project's scope is very broad. 
+![Illustration of LaTeX-Expansions](https://i.imgur.com/qmvH0E7.gif)This JSON file can be used in Sublime Text 3 by the **[LaTeX-Tools](https://github.com/SublimeText/LaTeXTools)** to increase the efficiency of your writing both not only with initiating/navigating/closing of LaTeX environments but also in reducing the time spent typing common terms. This config has been designed with Chemistry in mind but the potential for increasing this project's scope is very broad. 
 
 Expansions are triggered by typing a short field of text, (the *snippet*) of text and pressing `Tab` to expand the snippet to its defined field, (the *expansion*). For example in the .gif illustration above, typing `"sup"` then pressing `Tab` auto-fills the field to `\textsuperscript{}`, what's more, the cursor automatically knows to move to within the curly braces so that you can fill them, and pressing tab again moves the cursor outside the braces when you've finished filling the braces.
 
+# Principles
 A few guiding principles for how the expansions should be structured are as follows:
 
  1. *Snippets* should be short (this is meant to save time, right?)
@@ -19,13 +19,16 @@ A few guiding principles for how the expansions should be structured are as foll
 	 8.	Line breaks (by using `\n` should be employed where appropriate, for example `\\section{$1}\n$0`is preferred over `\\section{$0}\n` or worse again, `\\section{}`
 	 9.	Because JSON does not permit comments, line breaks as separate clusters of related *snippets*
 
+# Expanding Scope
+
 Areas of interest for the time being include
 
  - Medical acronyms and terminology
  - Optimising LaTeX
  - Physics
  
-Dependencies:
+# Dependencies
+
  - [Sublime Text](https://www.sublimetext.com/) (3 is tested, YMMV using ST2)
  - [LaTeX-Tools](https://github.com/SublimeText/LaTeXTools)
  - A working LaTeX distribution (not required technically but most users will need this)
