@@ -24,7 +24,7 @@ A few guiding principles for how the expansions should be structured are as foll
 	 7.	`$n` can be used iteratively to move the cursor following pressing `Tab` with `$0` being the final position. This should be used so the the user can tab their way through the *expansion* from beginning to end in a thought-through manner
 	 8.	Line breaks (by using `\n` should be employed where appropriate, for example `\\section{$1}\n$0`is preferred over `\\section{$0}\n` or worse again, `\\section{}`
 
-9.	Because JSON does not permit comments, line breaks as separate clusters of related *snippets*
+9.	Because JSON does not permit comments, line breaks separate clusters of related *snippets*
 
 # Expanding Scope
 
