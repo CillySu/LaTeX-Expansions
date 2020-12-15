@@ -1,6 +1,9 @@
 # LaTeX-Expansions *for Sublime Text 3*
 
-![Illustration of LaTeX-Expansions](https://i.imgur.com/qmvH0E7.gif)This JSON file can be used in Sublime Text 3 by the **[LaTeX-Tools](https://github.com/SublimeText/LaTeXTools)** to increase the efficiency of your writing both not only with initiating/navigating/closing of LaTeX environments but also in reducing the time spent typing common terms. This config has been designed with Chemistry in mind but the potential for increasing this project's scope is very broad. 
+![Illustration of LaTeX-Expansions](https://i.imgur.com/qmvH0E7.gif)
+
+
+This JSON file can be used in Sublime Text 3 by **[LaTeX-Tools](https://github.com/SublimeText/LaTeXTools)** to increase the efficiency of your writing both not only with initiating/navigating/closing of LaTeX environments but also in reducing the time spent typing common terms. This config has been designed with Chemistry in mind but the potential for increasing this project's scope is very broad. 
 
 Expansions are triggered by typing a short field of text, (the *snippet*) of text and pressing `Tab` to expand the snippet to its defined field, (the *expansion*). For example in the .gif illustration above, typing `"sup"` then pressing `Tab` auto-fills the field to `\textsuperscript{}`, what's more, the cursor automatically knows to move to within the curly braces so that you can fill them, and pressing tab again moves the cursor outside the braces when you've finished filling the braces.
 
