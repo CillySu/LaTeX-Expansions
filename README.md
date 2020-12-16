@@ -11,7 +11,7 @@ Open a command prompt window and type the following
 
 `git clone https://github.com/CillySu/LaTeX-Expansions`
 
-`cp '~\LaTeX-Expansions\LaTeX.sublime-completions' .\`
+`cp '.\LaTeX-Expansions\LaTeX.sublime-completions' .\`
 
 `rmdir \LaTeX-Expansions`
 
