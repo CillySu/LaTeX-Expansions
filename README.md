@@ -8,11 +8,15 @@
 Open a command prompt window and type the following
 
 `cd ~\AppData\Roaming\Sublime Text 3\Packages\LaTeXTools`
+
 `git clone https://github.com/CillySu/LaTeX-Expansions`
+
 `cp ~\LaTeX-Expansions\LaTeX.sublime-completions .\`
+
 `rmdir \LaTeX-Expansions`
 
-Install directory: `C:\Users\<YOURUSERNAME>\AppData\Roaming\Sublime Text 3\Packages\LaTeXTools`
+
+Or, you can copy the file however you wish to the Install directory: `C:\Users\<YOURUSERNAME>\AppData\Roaming\Sublime Text 3\Packages\LaTeXTools`
 
 This JSON file can be used in Sublime Text 3 by **[LaTeX-Tools](https://github.com/SublimeText/LaTeXTools)** to increase the efficiency of your writing not only with initiating/navigating/closing of LaTeX environments but also in reducing the time spent typing common terms. This config has been designed with Chemistry in mind but the potential for increasing this project's scope is very broad. 
 
