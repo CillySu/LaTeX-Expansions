@@ -13,7 +13,7 @@ Open a command prompt window and type the following
 
 `cp '.\LaTeX-Expansions\LaTeX.sublime-completions' .\`
 
-`rmdir \LaTeX-Expansions`
+`rmdir .\LaTeX-Expansions\`
 
 
 Or, you can copy the file however you wish to the Install directory: `C:\Users\<YOURUSERNAME>\AppData\Roaming\Sublime Text 3\Packages\LaTeXTools`
