@@ -7,11 +7,11 @@
 ### Windows
 Open a command prompt window and type the following
 
-`cd ~\AppData\Roaming\Sublime Text 3\Packages\LaTeXTools`
+`cd '~\AppData\Roaming\Sublime Text 3\Packages\LaTeXTools'`
 
 `git clone https://github.com/CillySu/LaTeX-Expansions`
 
-`cp ~\LaTeX-Expansions\LaTeX.sublime-completions .\`
+`cp '~\LaTeX-Expansions\LaTeX.sublime-completions' .\`
 
 `rmdir \LaTeX-Expansions`
 
